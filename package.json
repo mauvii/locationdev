@@ -1,0 +1,19 @@
+{
+  "name": "pigos-webapp",
+  "version": "1.0.0",
+  "description": "Application web multi-boutiques de gestion de location de costumes (PIGOS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
